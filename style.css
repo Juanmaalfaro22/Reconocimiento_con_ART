@@ -1,0 +1,106 @@
+html{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #EFEFEF;
+}
+.main-container{
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.classes-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 27vh;
+    align-items: center;
+}
+
+.cuadricula{
+    height: 400px;
+    width: 400px;
+    background-color: #e2e2e2;
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+    grid-template-rows: repeat(6, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    border-radius: .5rem;
+    margin-right: 10px;
+}
+
+.cuadricula-clases{
+    height: 200px;
+    width: 200px;
+    background-color: #e2e2e2;
+    display: grid;
+    grid-template-columns: repeat(6, 5px);
+    grid-template-rows: repeat(6, auto);
+    grid-column-gap: 25px;
+    grid-row-gap: 5px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    border-radius: .1rem;
+    margin-right: 1px;
+}
+
+.clases{
+    padding: 4px;
+}
+
+.cuadro, .cuadroS{
+    width: 50px;
+    height: 50px;
+    background-color: #c0bfbff7;
+    border-radius: .5rem;
+}
+
+.cuadroC{
+    width: 25px;
+    height: 25px;
+    background-color: #c0bfbff7;
+    border-radius: .5rem;
+}
+
+.colorear{
+    background-color: #AC05CD;
+}
+
+.controles{
+    margin-left: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    color: #F66B0E;
+}
+
+.botones{
+    width: 200px;
+    height: 50px;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #112B3C;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botones:hover{
+    background-color: #205375;
+}
+
+.input{
+    height: 30px;
+    width: 200px;
+    border-radius: 0.3rem;
+    font-size: 16px;
+}
